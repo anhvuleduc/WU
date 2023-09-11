@@ -14,8 +14,12 @@ Flag: PCTF{poster.reapply.voted}
 APPROACH
 ---------
 From the first observation, I could see that the airport is likely to be an airbase (an airport for military), and the aircrafts are fighter aircrafts.
+
 Also, from the problem statement, I though it seems reasonable that the aircrafts are made by the "Sweden competitor". Additionally, the airbase is placed in a country that purchase these Swedish aircraft (actually during the competition, I looked through Swedish airbase first and then came up with that initiative)
+
 After reverse image searching of the aircraft (I cropped it from the original image and searched on Yandex), I found out that the aircrafts are Saab JAS 39 Gripen, you can see more details here: https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen
 Through Wikipedia, I also knew that there are just several countries possessing this aircraft, which are: Sweden, Czech Republic, Hungary, and South Africa)
+
 I started searching through airbases in these countries with Google Earth (from Sweden (actually I should had ruled this out at first), Czech Republic and end up in Kecskemét Air Base (Hungary)
+
 Now, the work left is quite easy, the form of geolocation mentioned in the statement is 3- word location (which divided the Earth into squares and assigned each square with a corresponding tuple of 3 English word) I found the flag after locating the square on https://what3words.com/factor.boast.vote
